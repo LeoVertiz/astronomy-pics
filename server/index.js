@@ -59,11 +59,6 @@ function init(){
 }
 
 init()
-//Populate data
-// function getData(){
-	
-// }
-// getData()
 
 
 
