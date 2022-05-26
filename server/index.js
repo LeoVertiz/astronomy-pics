@@ -1,7 +1,7 @@
 const express = require('express')
 var cors = require('cors')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3001
 const axios = require('axios').default
 const moment = require('moment')
 
@@ -54,9 +54,6 @@ async function init(){
 		console.log(`App listening on port ${port}`)
 	})
 }
-app.listen(port, () => {
-	console.log(`App listening on port ${port}`)
-})
 init()
 
 
