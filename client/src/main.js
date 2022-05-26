@@ -5,7 +5,7 @@ import axios from 'axios'
 
 Vue.config.productionTip = false
 
-axios.defaults.baseURL = 'https://astronomy-pics.onrender.com/'
+axios.defaults.baseURL = 'http://localhost:3000/'
 Vue.prototype.$http = axios
 
 new Vue({
